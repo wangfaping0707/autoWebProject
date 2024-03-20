@@ -10,8 +10,8 @@ class TestSearchBaiDu:
 	@pytest.mark.usefixtures('get_driver')
 	def test_search_info(self, get_driver):
 		try:
-			search_run_method(url=TestSearchBaiDu.url, string="刀妹", driver=get_driver)
+			search_run_method(url=TestSearchBaiDu.url, string="selenium", driver=get_driver)
 			time.sleep(3)
-			assert '刀妹' in get_driver.page_source
+			assert 'selenium' in get_driver.page_source
 		except Exception as e:
 			raise e
