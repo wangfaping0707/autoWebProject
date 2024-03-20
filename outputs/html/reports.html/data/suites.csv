@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Mar 20 17:40:35 CST 2024","Wed Mar 20 17:40:45 CST 2024","9552","testcases","test_search_baidu","TestSearchBaiDu","","","test_search_info",""
